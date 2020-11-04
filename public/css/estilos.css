@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+h1, h3 {
+  text-align: center; }
+
+.bg-jumbotron{
+  background-image: url(../images/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.bg-jumbotron h1{
+  background: rgba(0, 0, 0, .1);
+}
+
+/* ===================================
+      Estilo para las estrellitas 
+======================================*/
+
+.grupo-estrellas {
+  width: 300px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.grupo-estrellas p {
+  text-align: center;
+}
+
+.grupo-estrellas label {
+  font-size: 25px;
+}
+
+.grupo-estrellas input[type="radio"] {
+  display: none;
+}
+
+.clasificacion label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.clasificacion label:hover,
+.clasificacion label:hover ~ label {
+  color: orange;
+}
+
+.grupo-estrellas input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+.link-modificar{
+  color: black;
+
+}
+
+td a {
+  color: hotpink;
+}
