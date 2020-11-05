@@ -20,24 +20,6 @@ class App{
             return false;
         }
         $archivoController = 'controller/' . $url[0] . '.php';
-
-        /* if(file_exists($archivoController)){
-            require_once $archivoController;
-
-            // inicializar controlador
-            $controller = new $url[0];
-            $controller->loadModel($url[0]);
-
-            // si hay un método que se requiere cargar
-            if(isset($url[1])){
-                $controller->{$url[1]}();
-            }else{
-                $controller->render();
-            }
-        }else{
-            $controller = new Errores();
-        } */
-
         if(file_exists($archivoController)){
             require_once $archivoController;
 

@@ -57,11 +57,11 @@ h1, h3 {
   color: orange;
 }
 
-.link-modificar{
-  color: black;
-
+td .link-modificar{
+  color: steelblue;
 }
 
-td a {
-  color: hotpink;
+
+td .link-eliminar{
+  color: red;
 }

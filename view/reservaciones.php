@@ -32,8 +32,8 @@
                     <td><?php echo $reservacion->personas; ?></td>
                     <td><?php echo $reservacion->fecha; ?></td>
                     <td><?php echo $reservacion->correo; ?></td>
-                    <td><a href="<?php echo constant('URL') . 'reservaciones/verReservacion/' . $reservacion->idReservacion; ?>">Modificar</a>
-                    <a href="<?php echo constant('URL') . 'reservaciones/eliminarReservacion/' . $reservacion->idReservacion; ?>"> Eliminar</a></td>
+                    <td><a class="link-modificar" href="<?php echo constant('URL') . 'reservaciones/verReservacion/' . $reservacion->idReservacion; ?>">Modificar</a>
+                    <a class="link-eliminar"href="<?php echo constant('URL') . 'reservaciones/eliminarReservacion/' . $reservacion->idReservacion; ?>"> Eliminar</a></td>
                    
                 </tr>
                 <?php } ?>
