@@ -1,4 +1,66 @@
+ HEAD
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.bg-jumbotron{
+    background-image: url(../images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+
+  .bg-jumbotron h1{
+    background: rgba(0, 0, 0, .2);
+  }
+
+  .dropbtn {
+    background-color: #444445;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 13px;
+    margin: 1em;
+  }
+
+  .dropdown {
+    display: inline-block;
+    transition: .1s;
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #ccc}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #444445;
+    transform: scale(1.1) ;
+  }
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
