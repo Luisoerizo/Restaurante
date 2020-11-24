@@ -9,8 +9,12 @@
       </div>
     </div>
   </footer>
-<script src="<?php echo RUTA_URL?>public/js/main.js"></script>
-<script src="<?php echo RUTA_URL?>public/js/jquery-3.5.1.min.js"></script>
-<script src="<?php echo RUTA_URL?>public/js/bootstrap.min.js"></script>
+  
+<script src="<?php echo constant('URL')?>public/js/jquery.min.js"></script>
+<script src="<?php echo constant('URL')?>public/js/bootstrap.min.js"></script>
+<script src="<?php echo constant('URL')?>public/js/popper.js"></script>
+<script src="<?php echo constant('URL')?>public/js/main.js"></script>
+
+
 </body>
 </html>
